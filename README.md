@@ -1,1 +1,3 @@
 # dsa-prep
+Hey Guys i know i am a bit late to this but 
+I also know that I can do this no matter how.............
