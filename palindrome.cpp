@@ -4,19 +4,20 @@ using namespace std;
 class Solution {
 public:
     bool isPalindrome(int x) {
-        if (x < 0)
-            return false;
+        // negative numbers are not palindromes
+        if (x < 0) return false;
+        // numbers ending with 0 (but not 0 itself) are not palindromes
+        if (x % 10 == 0 && x != 0) return false;
 
-        int original = x;
-        long long reverse = 0;
-
-        while (x > 0) {
-            int digit = x % 10;
-            reverse = reverse * 10 + digit;
+        int rev = 0;
+        // reverse only half of the number to avoid overflow
+        while (x > rev) {
+            rev = rev * 10 + x % 10;
             x /= 10;
         }
 
-        return original == reverse;
+        // For odd number of digits, discard the middle digit before comparison
+        return (x == rev) || (x == rev / 10);
     }
 };
 
