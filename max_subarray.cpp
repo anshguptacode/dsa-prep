@@ -1,3 +1,11 @@
+/*
+ * Problem: Maximum Subarray (LeetCode #53)
+ * Description: Given an integer array, find the contiguous subarray with the largest sum.
+ * Approach: Kadane's Algorithm - maintain current sum and best sum seen so far
+ * Time Complexity: O(n) - single pass
+ * Space Complexity: O(1) - constant space
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

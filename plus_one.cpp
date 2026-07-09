@@ -1,3 +1,12 @@
+/*
+ * Problem: Plus One (LeetCode #66)
+ * Description: Given a non-negative integer represented as an array of digits,
+ *              increment the integer by one.
+ * Approach: Traverse from right to left, handle carry propagation
+ * Time Complexity: O(n) - worst case all digits are 9
+ * Space Complexity: O(1) - excluding output array
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

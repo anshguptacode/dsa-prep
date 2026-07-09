@@ -1,3 +1,11 @@
+/*
+ * Problem: Palindrome Number (LeetCode #9)
+ * Description: Determine if an integer is a palindrome without converting to string.
+ * Approach: Reverse only half the number to avoid overflow, compare digits
+ * Time Complexity: O(log n) - where n is the number of digits
+ * Space Complexity: O(1) - constant space
+ */
+
 #include <iostream>
 using namespace std;
 

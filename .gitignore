@@ -1,4 +1,41 @@
-*.exe
-.vscode/
-*.out
+# Compiled object files
+*.o
 *.obj
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Static libraries
+*.a
+*.lib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+dist/
+cmake-build-debug/
+
+# Temporary files
+*.tmp
+*.temp
+*.log

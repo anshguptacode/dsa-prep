@@ -1,3 +1,11 @@
+/*
+ * Problem: Longest Common Prefix (LeetCode #14)
+ * Description: Write a function to find the longest common prefix string amongst an array of strings.
+ * Approach: Horizontal scanning - compare prefix with each string character by character
+ * Time Complexity: O(n * m) - where n is number of strings, m is length of shortest string
+ * Space Complexity: O(1) - excluding output
+ */
+
 #include <iostream>
 #include <vector>
 #include <string>

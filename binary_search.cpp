@@ -1,3 +1,11 @@
+/*
+ * Problem: Binary Search (LeetCode #704)
+ * Description: Given a sorted array and a target value, return the index if found, else -1.
+ * Approach: Classic binary search - divide search space in half each iteration
+ * Time Complexity: O(log n) - logarithmic search
+ * Space Complexity: O(1) - constant space
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

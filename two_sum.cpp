@@ -1,3 +1,12 @@
+/*
+ * Problem: Two Sum (LeetCode #1)
+ * Description: Given an array of integers nums and an integer target, return the indices
+ *              of the two numbers that add up to the target.
+ * Approach: Use an unordered_map to store elements and their indices for O(1) lookup
+ * Time Complexity: O(n) - single pass through array
+ * Space Complexity: O(n) - hash map storage
+ */
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>

@@ -1,3 +1,12 @@
+/*
+ * Problem: Product of Array Except Self (LeetCode #238)
+ * Description: Given an array, return a new array where each element is the product
+ *              of all other elements (without using division).
+ * Approach: Use prefix and suffix products - multiply all elements to left, then all to right
+ * Time Complexity: O(n) - two passes through array
+ * Space Complexity: O(1) - excluding output array
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

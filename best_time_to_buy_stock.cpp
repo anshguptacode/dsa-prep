@@ -1,3 +1,12 @@
+/*
+ * Problem: Best Time to Buy and Sell Stock (LeetCode #121)
+ * Description: Given stock prices, find the maximum profit from buying and selling once.
+ *              Must buy before sell. If no profit possible, return 0.
+ * Approach: Track minimum price seen so far, calculate profit at each price
+ * Time Complexity: O(n) - single pass
+ * Space Complexity: O(1) - constant space
+ */
+
 #include <iostream>
 #include <vector>
 #include <climits>

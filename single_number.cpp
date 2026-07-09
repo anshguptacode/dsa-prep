@@ -1,3 +1,12 @@
+/*
+ * Problem: Single Number (LeetCode #136)
+ * Description: Given a non-empty array where every element appears twice except one,
+ *              find the single element that appears only once.
+ * Approach: Use XOR bit manipulation - XOR of two same numbers is 0, XOR of 0 and x is x
+ * Time Complexity: O(n) - single pass
+ * Space Complexity: O(1) - constant space, no extra data structures
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

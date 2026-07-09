@@ -1,3 +1,11 @@
+/*
+ * Problem: Group Anagrams (LeetCode #49)
+ * Description: Given an array of strings, group anagrams together.
+ * Approach: Sort each word and use as key in hash map to group anagrams
+ * Time Complexity: O(n * k log k) - where n is number of words, k is max word length
+ * Space Complexity: O(n * k) - store all characters
+ */
+
 #include <iostream>
 #include <vector>
 #include <string>

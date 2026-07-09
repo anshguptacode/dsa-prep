@@ -1,3 +1,11 @@
+/*
+ * Problem: Remove Duplicates from Sorted Array (LeetCode #26)
+ * Description: Remove duplicates from a sorted array in-place and return the count of unique elements.
+ * Approach: Two pointers - one for writing position, one for reading
+ * Time Complexity: O(n) - single pass
+ * Space Complexity: O(1) - in-place modification
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

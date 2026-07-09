@@ -1,3 +1,12 @@
+/*
+ * Problem: Majority Element (LeetCode #169)
+ * Description: Given an array, find the element that appears more than n/2 times.
+ *              Guaranteed that the majority element always exists in the array.
+ * Approach: Boyer-Moore Majority Voting Algorithm
+ * Time Complexity: O(n) - single pass
+ * Space Complexity: O(1) - constant space
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

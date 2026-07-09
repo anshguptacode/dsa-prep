@@ -1,3 +1,12 @@
+/*
+ * Problem: Merge Sorted Array (LeetCode #88)
+ * Description: Merge two sorted arrays nums1 and nums2 into nums1 in-place.
+ *              nums1 has enough space (size m + n) to hold all elements.
+ * Approach: Two pointers from the end, fill nums1 from right to left to avoid overwriting
+ * Time Complexity: O(m + n) - single pass
+ * Space Complexity: O(1) - in-place merge
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

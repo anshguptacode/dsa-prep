@@ -1,3 +1,13 @@
+/*
+ * Problem: Valid Parentheses (LeetCode #20)
+ * Description: Given a string containing parentheses, determine if it is valid.
+ *              Valid means every opening bracket has a corresponding closing bracket
+ *              in the correct order.
+ * Approach: Use a stack to match opening and closing parentheses
+ * Time Complexity: O(n) - single pass through string
+ * Space Complexity: O(n) - stack storage for unmatched brackets
+ */
+
 #include <iostream>
 #include <stack>
 #include <string>

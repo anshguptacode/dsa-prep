@@ -1,3 +1,11 @@
+/*
+ * Problem: Count Primes (LeetCode #204)
+ * Description: Count the number of prime numbers less than a given non-negative integer n.
+ * Approach: Sieve of Eratosthenes - mark multiples of each prime as non-prime
+ * Time Complexity: O(n log log n) - efficient prime sieving
+ * Space Complexity: O(n) - boolean array
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

@@ -1,3 +1,11 @@
+/*
+ * Problem: Top K Frequent Elements (LeetCode #347)
+ * Description: Given an integer array, return the k most frequent elements.
+ * Approach: Count frequencies with hash map, sort by frequency, return top k
+ * Time Complexity: O(n log n) - dominated by sorting step
+ * Space Complexity: O(n) - hash map and result storage
+ */
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
