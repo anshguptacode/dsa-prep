@@ -4,8 +4,8 @@ A comprehensive collection of classic LeetCode problems and algorithmic solution
 
 ## 📋 Repository Overview
 
-This repository contains implementations of 20+ fundamental DSA problems, each featuring:
-- Optimized C++ solution classes
+This repository contains implementations of 21+ fundamental DSA problems, each featuring:
+- Optimized C++ solution classes or functions
 - Time and space complexity analysis
 - Example test cases
 - Problem descriptions in code comments
@@ -34,7 +34,9 @@ This repository contains implementations of 20+ fundamental DSA problems, each f
 | 16 | Longest Common Prefix | [longest_common_prefix.cpp](longest_common_prefix.cpp) | O(n*m) Time / O(1) Space | String Comparison |
 | 17 | Group Anagrams | [group_anagrams.cpp](group_anagrams.cpp) | O(n*k log k) Time / O(n*k) Space | Hash Map + Sorting |
 | 18 | Product of Array Except Self | [product_except_self.cpp](product_except_self.cpp) | O(n) Time / O(1) Space | Prefix/Suffix Product |
-| 19 | Binary Search | [binary_search.cpp](binary_search.cpp) | O(log n) Time / O(1) Space | Binary Search |
+| 19 | Longest Palindromic Substring | [longest_palindromic_substring.cpp](longest_palindromic_substring.cpp) | O(n^2) Time / O(1) Space | Expand Around Center |
+| 20 | Binary Search | [binary_search.cpp](binary_search.cpp) | O(log n) Time / O(1) Space | Binary Search |
+| 21 | Two Sum - Alternative | [two_sum_alt.cpp](two_sum_alt.cpp) | O(n) Time / O(n) Space | Hash Map |
 
 ---
 
@@ -119,28 +121,7 @@ Each solution emphasizes:
 
 ## 📝 File Structure
 
-```
-dsa-repo/
-├── README.md                          # This file
-├── .gitignore                         # Git ignore rules
-├── Array/
-│   ├── two_sum.cpp
-│   ├── contains_duplicate.cpp
-│   ├── merge_sorted_array.cpp
-│   └── ... (other array problems)
-├── String/
-│   ├── valid_parentheses.cpp
-│   ├── longest_common_prefix.cpp
-│   └── ... (other string problems)
-├── Dynamic Programming/
-│   ├── climb_stairs.cpp
-│   ├── max_subarray.cpp
-│   └── ...
-└── Miscellaneous/
-    ├── binary_search.cpp
-    ├── count_primes.cpp
-    └── ...
-```
+All solutions are stored as root-level `.cpp` files in the repository root. The repository also includes `.gitignore`, `.vscode/`, and `README.md` for configuration and documentation.
 
 ---
 
