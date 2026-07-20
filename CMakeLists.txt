@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(dsa_repo LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+file(GLOB_RECURSE SOURCE_FILES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/*.cpp")
+
+foreach(SOURCE_FILE IN LISTS SOURCE_FILES)
+    get_filename_component(TARGET_NAME ${SOURCE_FILE} NAME_WE)
+    add_executable(${TARGET_NAME} ${SOURCE_FILE})
+endforeach()

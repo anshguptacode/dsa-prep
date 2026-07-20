@@ -12,6 +12,14 @@ This repository contains implementations of 21+ fundamental DSA problems, each f
 
 ---
 
+## 🚀 Improvements Added
+
+- Added `CMakeLists.txt` to build all `.cpp` files automatically.
+- Added GitHub Actions CI in `.github/workflows/build.yml` to build on push and pull request.
+- Ensured compiled binaries and editor files are ignored by `.gitignore`.
+
+---
+
 ## 📚 Problems & Solutions
 
 | # | Problem | File | Complexity | Algorithm |
